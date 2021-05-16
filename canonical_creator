@@ -6,4 +6,4 @@ FIRST_LOWER="$(tr '[:upper:]' '[:lower:]' <<< ${NAME:0:1})${NAME:1}"
 
 export NAME=$NAME UPPERCASE=$UPPERCASE FIRST_LOWER=$FIRST_LOWER
 
-envsubst < $(dirname $0)/hpp.template > $NAME.hpp
+envsubst < $(dirname $0)/hpp.template >> $NAME.hpp
