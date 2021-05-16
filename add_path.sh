@@ -1,1 +1,2 @@
-echo 'export PATH=$PATH:'$PWD
+echo 'export PATH=$PATH:'$PWD >> ~/.zshrc
+echo "please restart terminal"
