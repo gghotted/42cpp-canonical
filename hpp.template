@@ -1,0 +1,13 @@
+#ifndef ${UPPERCASE}_HPP
+#define ${UPPERCASE}_HPP
+
+class ${NAME} {
+ public:
+  ${NAME}(void);
+  ${NAME}(const ${NAME}& ${FIRST_LOWER});
+  virtual ~${NAME}(void);
+
+  ${NAME}& operator = (const ${NAME}& ${FIRST_LOWER});
+};
+
+#endif
