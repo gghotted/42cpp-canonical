@@ -4,9 +4,9 @@
 class ${NAME}
 {
  public:
-  ${NAME}(void);
+  ${NAME}();
   ${NAME}(const ${NAME}& ${FIRST_LOWER});
-  virtual ~${NAME}(void);
+  virtual ~${NAME}();
 
   ${NAME}& operator = (const ${NAME}& ${FIRST_LOWER});
 };
